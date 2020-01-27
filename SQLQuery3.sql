@@ -1,0 +1,1 @@
+﻿SELECT ls.StanicaID, s.NazivStanice FROM LinijaStanica ls JOIN Linija l on(ls.LinijaID = l.LinijaID) JOIN Stanica s on(s.StanicaID = ls.StanicaID) WHERE l.NazivLinije = 'Nis'
